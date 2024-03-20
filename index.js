@@ -11,7 +11,7 @@ const cookieParser = require("cookie-parser");
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://rahat-l2-clothesdonation.netlify.app",
     credentials: true,
   })
 );
